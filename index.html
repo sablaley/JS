@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUNSET CAFE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/logo1.jpeg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- animatie css link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="row">
+                <a href="index.html"><img src="images/logo1.jpeg" alt="logo" class="logo"></a>
+
+                <ul class="main-nav animated slideInDown" id="check-class">
+                    <li><a href="#">Coffee delivery</a></li>
+                    <li><a href="#order-cofee">how to order</a></li>
+                    <li><a href="#">checkmore</a></li>
+                    <li id="clickme"><a href="#">sign up</a></li>
+                </ul>
+                <a href="#" class="mobile-icon"><i class="fa fa-bars"></i></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="main-content-header">
+            <h1>welcome to <span class="colorchnge">sunset cafe</span>.<br>house of cafe lover oo yes</h1>
+            <a href="#order-cofee" class="btn btn-full">click to order</a>
+            <a href="#" class="btn btn-show">show me more</a>
+        </div>
+        <div class="modal-overlay" id="order-cofee">
+            <div class="modal-container">
+                <h2>Coffee Order Form</h2>
+                <p>Please choose your favorite cofee from among the following:</p>
+                <form action="#" method="get" name="form">
+                    <div id="choose-cofee" class="select-cofee">
+                        <div class="lists">
+                            <figure>
+                                <img src="images/istockphoto-489377142-612x612.jpg" alt="" class="cofee">
+                            </figure>
+                            <div class="detail">
+                                <div class="coffe-detail">
+                                    <h4>Long Black</h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, esse accusamus
+                                        sed dolore amet, iure recusandae debitis repellat minus ad sunt, sapiente
+                                        facilis. Provident quaerat illo veniam quae quos nostrum placeat consequatur,
+                                        labore eveniet.</p>
+                                </div>
+                                <span class="close-detail"></span>
+                            </div>
+                            <input type="checkbox" name="cofee_select" id="black" value="Black Cofee">
+                            <label for="black">Long Black </label>
+                            <div class="coffe-price">
+                                <span class="price">$10</span>
+                                <button class="add-cart">add to cart</button>
+                            </div>
+                        </div>
+                        <div class="lists">
+                            <figure>
+                                <img src="images/istockphoto-1145612951-612x612.jpg" alt="" class="cofee">
+                            </figure>
+                            <div class="detail">
+                                <div class="coffe-detail">
+                                    <h4>Decalf</h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, esse accusamus
+                                        sed dolore amet, iure recusandae debitis repellat minus ad sunt, sapiente
+                                        facilis. Provident quaerat illo veniam quae quos nostrum placeat consequatur,
+                                        labore eveniet.</p>
+                                </div>
+                                <span class="close-detail"></span>
+                            </div>
+                            <input type="checkbox" name="cofee_select" id="decaf" value="Decaf Cofee">
+                            <label for="decaf">Decaf </label>
+                            <div class="coffe-price">
+                                <span class="price">$10</span>
+                                <button class="add-cart">add to cart</button>
+                            </div>
+                        </div>
+                        <div class="lists">
+                            <figure>
+                                <img src="images/istockphoto-1303583671-612x612.jpg" alt="" class="cofee">
+                            </figure>
+                            <div class="detail">
+                                <div class="coffe-detail">
+                                    <h4>Espresso</h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, esse accusamus
+                                        sed dolore amet, iure recusandae debitis repellat minus ad sunt, sapiente
+                                        facilis. Provident quaerat illo veniam quae quos nostrum placeat consequatur,
+                                        labore eveniet.</p>
+                                </div>
+                                <span class="close-detail"></span>
+                            </div>
+                            <input type="checkbox" name="cofee_select" id="espresso" value="Espresso">
+                            <label for="espresso">Espresso </label>
+                            <div class="coffe-price">
+                                <span class="price">$20</span>
+                                <button class="add-cart">add to cart</button>
+                            </div>
+                        </div>
+                        <div class="lists">
+                            <figure>
+                                <img src="images/istockphoto-133828852-612x612.jpg" alt="" class="cofee">
+                            </figure>
+                            <div class="detail">
+                                <div class="coffe-detail">
+                                    <h4>Americano</h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, esse accusamus
+                                        sed dolore amet, iure recusandae debitis repellat minus ad sunt, sapiente
+                                        facilis. Provident quaerat illo veniam quae quos nostrum placeat consequatur,
+                                        labore eveniet.</p>
+                                </div>
+                                <span class="close-detail"></span>
+                            </div>
+                            <input type="checkbox" name="cofee_select" id="americano" value="Americano Cofee">
+                            <label for="americano">Americano </label>
+                            <div class="coffe-price">
+                                <span class="price">$10</span>
+                                <button class="add-cart">add to cart</button>
+                            </div>
+                        </div>
+                        <div class="lists">
+                            <figure>
+                                <img src="images/istockphoto-157528129-612x612.jpg" alt="" class="cofee">
+                            </figure>
+                            <div class="detail">
+                                <div class="coffe-detail">
+                                    <h4>Flat White</h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, esse accusamus
+                                        sed dolore amet, iure recusandae debitis repellat minus ad sunt, sapiente
+                                        facilis. Provident quaerat illo veniam quae quos nostrum placeat consequatur,
+                                        labore eveniet.</p>
+                                </div>
+                                <span class="close-detail"></span>
+                            </div>
+                            <input type="checkbox" name="cofee_select" id="flat-White" value="Flat White">
+                            <label for="flat-White"> Flat White </label>
+                            <div class="coffe-price">
+                                <span class="price">$10</span>
+                                <button class="add-cart">add to cart</button>
+                            </div>
+                        </div>
+                        <div class="lists">
+                            <figure>
+                                <img src="images/istockphoto-814684194-612x612.jpg" alt="" class="cofee">
+                            </figure>
+                            <div class="detail">
+                                <div class="coffe-detail">
+                                    <h4>Cappuccino</h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, esse accusamus
+                                        sed dolore amet, iure recusandae debitis repellat minus ad sunt, sapiente
+                                        facilis. Provident quaerat illo veniam quae quos nostrum placeat consequatur,
+                                        labore eveniet.</p>
+                                </div>
+                                <span class="close-detail"></span>
+                            </div>
+                            <input type="checkbox" name="cofee_select" id="cappuccino" value="Cappuccino Cofee">
+                            <label for="cappuccino">Cappuccino </label>
+                            <div class="coffe-price">
+                                <span class="price">$30</span>
+                                <button class="add-cart">add to cart</button>
+                            </div>
+                        </div>
+                        <div class="lists">
+                            <figure>
+                                <img src="images/istockphoto-880720550-612x612.jpg" alt="" class="cofee">
+                            </figure>
+                            <div class="detail">
+                                <div class="coffe-detail">
+                                    <h4>Macchiato</h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, esse accusamus
+                                        sed dolore amet, iure recusandae debitis repellat minus ad sunt, sapiente
+                                        facilis. Provident quaerat illo veniam quae quos nostrum placeat consequatur,
+                                        labore eveniet.</p>
+                                </div>
+                                <span class="close-detail"></span>
+                            </div>
+                            <input type="checkbox" name="cofee_select" id="macchiato" value="Macchiato Cofee">
+                            <label for="macchiato">Macchiato </label>
+                            <div class="coffe-price">
+                                <span class="price">$20</span>
+                                <button type="button" class="add-cart">add to cart</button>
+                            </div>
+                        </div>
+                        <div class="lists">
+                            <figure>
+                                <img src="images/istockphoto-505168330-612x612.jpg" alt="" class="cofee">
+                            </figure>
+                            <div class="detail">
+                                <div class="coffe-detail">
+                                    <h4>Latte Macchiato</h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, esse accusamus
+                                        sed dolore amet, iure recusandae debitis repellat minus ad sunt, sapiente
+                                        facilis. Provident quaerat illo veniam quae quos nostrum placeat consequatur,
+                                        labore eveniet.</p>
+                                </div>
+                                <span class="close-detail"></span>
+                            </div>
+                            <input type="checkbox" name="cofee_select" id="latte" value="Latte Macchiato Cofee">
+                            <label for="latte">Latte </label>
+                            <div class="coffe-price">
+                                <span class="price">$10</span>
+                                <button class="add-cart">add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter Your Full Name" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" id="phone" placeholder="Enter Your Phone Number" class="form-control"
+                            name="phone_number" >
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter Your Email" class="form-control" name="email"
+                            >
+                    </div>
+                    <div class="form-group">
+                        <label for="dat">delivery Date</label>
+                        <input type="date" id="dat" placeholder="Enter Your Delivery Date" class="form-control"
+                            name="delivery_date">
+                    </div>
+                    <div class="form-group">
+                        <label for="tim">delivery Time</label>
+                        <input type="time" id="tim" placeholder="Enter Your Delivery Time" class="form-control"
+                            name="delivery_time">
+                    </div>
+                    <div class="form-group">
+                        <label for="addr">Address</label>
+                        <textarea name="addr" id="addr" cols="30" rows="7" placeholder="Enter Your Address"
+                            ></textarea>
+                    </div>
+                    <!-- cart items -->
+                    <div class="cart-heading">
+                        <h3>CART</h3>
+                    </div>
+                    <div class="info">
+                        <span>Item</span>
+                        <span>Price</span>
+                        <span>Quantity</span>
+                    </div>
+                    <div class="cart-items" style="color:black;">
+
+                    </div>
+                    <div id="bill_para">
+                        <p id="bill_entry">Total Bill:0</p>
+                    </div>
+                    <!--cart items end-->
+                    <!-- purchase button -->
+                    <input type="submit" id="sub" value="PURCHASE">
+                    <span class="msg"></span>
+                </form>
+            </div>
+        </div>
+        <div>
+
+        </div>
+    </main>
+    <footer>
+        <p>&#169; all rights reserved - SUNSET CAFE</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
